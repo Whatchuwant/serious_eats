@@ -1,8 +1,26 @@
+
+@media screen and (min-width: 972px)
+html {
+    font-family: screen-md;
+}
+@media screen and (min-width: 768px)
+html {
+    font-family: screen-sm;
+}
+@media screen and (min-width: 480px)
+html {
+    font-family: screen-xs;
+}
+@media screen and (min-width: 320px)
+html {
+    font-family: screen-tiny;
+}
+
 .pic { 
 	border-color: #000000;
     border-width: 10px;
     border-style: solid;
-    
+
    
   }
 
@@ -72,10 +90,11 @@ h2 {
     width: 125px;
     height: 125px;
     border: none;
-    transition: 1s;    
+    /*transition: 1s;*/    
 }
 
-.pie:hover{
+/*.pie:hover{
     transform: scale(0.8);
-}
+}*/
+
 
