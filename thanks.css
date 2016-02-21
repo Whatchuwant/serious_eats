@@ -1,35 +1,162 @@
+     /*FULL SCREEN*/
+@media (min-width: 972px)
+{
+  .container img {
+    width: 1500px;
+    height: auto;
+   }
+   .tinted-image {
+    width: 600px;
+    height: 555px;
+  }
+ /*THE SERIOUS EATS*/
+h4 {
+     top: 75px; 
+     left: 125px; 
+     font-size: 48px;
+    }
+  /*THANKSGIVING*/
+  h1 {
+    top: 150px ;
+    left: 100px;
+    font-size: 96px;
+  }
+  /*SURVIVAL GUIDE*/
+  h2 {
+     top: 300px; 
+     left: 150px;
+     font-size: 48px; 
+  } 
+  .pie {
+    position: absolute; 
+     top: 400px;
+     left: 250px; 
+   }
+}    
 
-@media screen and (min-width: 972px)
-html {
-    font-family: screen-md;
+/*SECOND SCREEN*/
+@media  (min-width: 768px) and (max-width: 971px)
+{
+  .container img {
+    width: 800px;
+    height: auto;
+   }
+   .tinted-image {
+    width: 800px;
+    height: 300px;
+  }
+   /*THE SERIOUS EATS*/
+  h4 {
+    top: -10px;
+    left: 250px;
+    font-size: 32px;
+  }
+   /*THANKSGIVING*/
+  h1 {
+    top: 3px ;
+    left: 200px;
+    font-size: 82px;
+  }
+   /*SURVIVAL GUIDE*/
+  h2 {
+     top: 120px; 
+     left: 275px;
+     font-size: 32px; 
+  } 
+  .pie {
+    position: absolute; 
+     top: 180px;
+     left: 310px;
+   }
+  
 }
-@media screen and (min-width: 768px)
-html {
-    font-family: screen-sm;
+/*THIRD SCREEN*/
+@media (min-width: 480px) and (max-width: 767px)
+{
+  .container img {
+    width: 500px;
+    height: auto;
+  }
+  .tinted-image {
+    width: 500px;
+    height: 185px;
+  }
+   /*THE SERIOUS EATS*/
+  h4 {
+    top: -20px;
+    left: 120px;
+    font-size: 32px;
+  }
+   /*THANKSGIVING*/
+  h1 {
+    top: 20px ;
+    left: 100px;
+    font-size: 64px;
+  }
+   /*SURVIVAL GUIDE*/
+  h2 {
+     top: 100px; 
+     left: 120px;
+     font-size: 32px; 
+  }
+  .pie {
+    position: absolute;
+    top: 75px; 
+    left: 425px;
+  }
+  .pie img {
+    width: 75px;
+    height: auto;
+  }
 }
-@media screen and (min-width: 480px)
-html {
-    font-family: screen-xs;
-}
-@media screen and (min-width: 320px)
-html {
-    font-family: screen-tiny;
+/*FOURTH SCREEN*/
+@media  (min-width: 320px) and (max-width: 479px)
+ {
+  .container img {
+    width: 350px;
+    height: auto;
+  }
+  .tinted-image {
+    width: 350px;
+    height: 130px;
+  }
+    /*THE SERIOUS EATS*/
+  h4 {
+    top: -18px;
+    left: 80px;
+    font-size: 24px;
+  }
+   /*THANKSGIVING*/
+  h1 {
+    top: 25px ;
+    left: 90px;
+    font-size: 36px;
+  }
+   /*SURVIVAL GUIDE*/
+  h2 {
+     top: 75px; 
+     left: 90px;
+     font-size: 24px; 
+  }
+ .pie {
+    position: absolute;
+    top: 50px; 
+    left: 300px;
+  }
+  .pie img {
+    width: 50px;
+    height: auto;
+  }
 }
 
-.pic { 
-	border-color: #000000;
+/*---------------------------------------------------*/
+
+
+.container img{ 
+	  border-color: #000000;
     border-width: 10px;
     border-style: solid;
-
-   
   }
-
-.tinted-image {
-  
-  width: 600px;
-  height: 555px;
- 
-}
 
 .orange:after {
   content: '';
@@ -46,55 +173,32 @@ background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,0.4)
 background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,0.4) 10%, rgba(255,146,10,0.34) 11%);
 background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,0.4) 10%, rgba(255,146,10,0.34) 11%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
-}
+  }
 
 h4 {
 	 position: absolute; 
-   	 top: 75px; 
-     left: 125px; 
      width: 100%; 
      color: white;
      font-family: 'Fira Sans', sans-serif;
-     font-size: 48px;
      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+    }
+
 h1 {
   	 position: absolute; 
-   	 top: 150px; 
-   	 left: 100px; 
    	 width: 100%;
    	 color: white;
    	 font-family: 'Great Vibes', cursive;
-   	 font-size: 96px;
      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+    }
 
 h2 {
-	 position: absolute; 
-     top: 300px; 
-     left: 150px; 
+	   position: absolute; 
      width: 100%;
      color: white;
      font-family: 'Fira Sans', sans-serif;
-     font-size: 48px;
      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
 
-}
 
-.pie {
- 
-   
-     position: absolute; 
-     top: 400px; 
-     left: 250px;
-    width: 125px;
-    height: 125px;
-    border: none;
-    /*transition: 1s;*/    
-}
-
-/*.pie:hover{
-    transform: scale(0.8);
-}*/
 
 
